@@ -1,0 +1,255 @@
+<div class="partial-pages profile">
+    <div class="container">
+        <div class="col-sm-6 col-sm-offset-3">
+            <h1>Resume</h1>
+            <p>We will parse it for you</p>
+            <form>
+                <input type="file" name="file" file-model="myFile"/>
+                <font size="2">Only PDF file is allowed!</font>
+                <br/>
+                <font size="2">Maximum size is 2MB!</font>
+                <br/>
+                <button ng_click ="uploadFile()" class="btn-light btn-small"> Upload! </button>
+                <br/>
+                {{uploadStatus}}
+            </form>
+        </div>
+        <div class="col-sm-6 col-sm-offset-3">
+            <h1>Profile</h1>
+            <!-- RMrm -->
+            <form id="appAccount" ng-controller="accountCtl" >
+                <h3>Account Information</h3>
+                <!-- password -->
+                <div class="form-group">
+                    <label for="userPassword">Password</label><br>
+                    <input name="password1" type="password" class="form-control" id="userPassword" placeholder="Password">
+                </div>
+
+                <div class="form-group">
+                    <label for="userReenterPassword">Re-enter Password</label><br>
+                    <input name="password2" type="password" class="form-control" id="userReenterPassword" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-light btn-small">Submit</button>
+            </form>
+
+                <br>
+                <h3>Education and Personal Information</h3>
+                <!-- school -->
+            <form id="appBasic" ng-controller="basicCtl">
+<!--
+                <div class="form-group">
+                    <label>School</label>
+                    <br>
+                    <select name="school" ng-model="school">
+                        <option value="uiuc">UIUC</option>
+                        <option value="uic">UIC</option>
+                        <option value="uchicago">UChicago</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
+-->
+
+                <div class="form-group">
+                    <label for="School">School</label><br>
+                    <input name="school" ng-model="school" type="text" class="form-control" id="School" placeholder="e.g. UIUC">
+                </div>
+
+                <!-- major -->
+                <div class="form-group">
+                    <label>Major</label>
+                    <br>
+                    <select name="major" ng-model="major">
+                        <option value="none">None</option>
+                        <option value="aerospaceEngineering">Aerospace Engineering</option>
+                        <option value="agriculturalAndBiological">Agricultural and Biological Engineering</option>
+                        <option value="bioengineering">Bioengineering</option>
+                        <option value="chemicalAndBiomolecularEngineering">Chemical and Biomolecular Engineering</option>
+                        <option value="civilAndEnvironmentalEngineering">Civil and Environmental Engineering</option>
+                        <option value="computerEngineering">Computer Engineering</option>
+                        <option value="computerScience">Computer Science</option>
+                        <option value="electricalEngineering">Electrical Engineering</option>
+                        <option value="engineeringPhysics">Engineering Physics</option>
+                        <option value="industrialEngineering">Industrial Engineering</option>
+                        <option value="materialsScienceAndEngineering">Materials Science and Engineering</option>
+                        <option value="mechanicalEngineering">Mechanical Engineering</option>
+                        <option value="nuclearPlasmaAndRadiologicalEngineering">Nuclear, Plasma, and Radiological Engineering</option>
+                        <option value="systemsEngineeringAndDesign">Systems Engineering and Design</option>
+                    </select>
+                </div>
+
+                <!-- minor -->
+                <div class="form-group">
+                    <label>Minor (optional)</label>
+                    <br>
+                    <select name="minor" ng-model="minor">
+                        <option value="none">None</option>
+                        <option value="aerospaceEngineering">Aerospace Engineering</option>
+                        <option value="agriculturalAndBiological">Agricultural and Biological Engineering</option>
+                        <option value="bioengineering">Bioengineering</option>
+                        <option value="chemicalAndBiomolecularEngineering">Chemical and Biomolecular Engineering</option>
+                        <option value="civilAndEnvironmentalEngineering">Civil and Environmental Engineering</option>
+                        <option value="computerEngineering">Computer Engineering</option>
+                        <option value="computerScience">Computer Science</option>
+                        <option value="electricalEngineering">Electrical Engineering</option>
+                        <option value="engineeringPhysics">Engineering Physics</option>
+                        <option value="industrialEngineering">Industrial Engineering</option>
+                        <option value="materialsScienceAndEngineering">Materials Science and Engineering</option>
+                        <option value="mechanicalEngineering">Mechanical Engineering</option>
+                        <option value="nuclearPlasmaAndRadiologicalEngineering">Nuclear, Plasma, and Radiological Engineering</option>
+                        <option value="systemsEngineeringAndDesign">Systems Engineering and Design</option>
+                    </select>
+                </div>
+
+                <!-- second major -->
+                <div class="form-group">
+                    <label>Second Major (optional)</label>
+                    <br>
+                    <select name="secondMajor" ng-model="secondMajor">
+                        <option value="none">None</option>
+                        <option value="aerospaceEngineering">Aerospace Engineering</option>
+                        <option value="agriculturalAndBiological">Agricultural and Biological Engineering</option>
+                        <option value="bioengineering">Bioengineering</option>
+                        <option value="chemicalAndBiomolecularEngineering">Chemical and Biomolecular Engineering</option>
+                        <option value="civilAndEnvironmentalEngineering">Civil and Environmental Engineering</option>
+                        <option value="computerEngineering">Computer Engineering</option>
+                        <option value="computerScience">Computer Science</option>
+                        <option value="electricalEngineering">Electrical Engineering</option>
+                        <option value="engineeringPhysics">Engineering Physics</option>
+                        <option value="industrialEngineering">Industrial Engineering</option>
+                        <option value="materialsScienceAndEngineering">Materials Science and Engineering</option>
+                        <option value="mechanicalEngineering">Mechanical Engineering</option>
+                        <option value="nuclearPlasmaAndRadiologicalEngineering">Nuclear, Plasma, and Radiological Engineering</option>
+                        <option value="systemsEngineeringAndDesign">Systems Engineering and Design</option>
+                    </select>
+                </div>
+
+                <!-- gpa -->
+                <div class="form-group">
+                    <label for="gpa">GPA</label><br>
+                    <input name="gpa" type="text" class="form-control" id="gpa" placeholder="GPA" ng-model="gpa">
+                </div>
+
+                <!-- degree type -->
+                <div class="form-group">
+                    <label>Degree Type</label>
+                    <br>
+                    <select name="degree" ng-model="degreeType">
+                        <option value="bachelor">Bachelor</option>
+                        <option value="master">Master</option>
+                        <option value="doctorate">Doctorate</option>
+                        <option value="postDoc">Post-doc</option>
+                        <option value="nonDegree">Non-degree</option>
+                    </select>
+                </div>
+
+                <!-- phone number -->
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number</label><br>
+                    <input name="phoneNumber" type="text" class="form-control" id="phoneNumber" placeholder="Phone Number" ng-model="phoneNumber">
+                </div>
+
+                <!-- Address -->
+                <div class="form-group">
+                    <label for="address">Address</label><br>
+                    <input name="address" type="text" class="form-control" id="address" placeholder="Address" ng-model="address">
+                </div>
+
+                <!-- work authorization -->
+                <div class="form-group">
+                    <label>Work Authorization</label>
+                    <br>
+                    <select name="workAuthorization" ng-model="workAuthorization">
+                        <option value="usCitizen"> U.S. Citizen</option>
+                        <option value="f1Visa"> F1 Visa</option>
+                        <option value="permanentResident"> Permanent Resident</option>
+                        <option value="other"> Other</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-light btn-small">Submit</button>
+            </form>
+
+            <!-- experience and skills -->
+            <br>
+            <h3>Experience</h3>
+            <form id="appExperience" ng-controller="experienceCtl">
+                <!-- experience list -->
+                <div class="form-group">
+                    <fieldset class="proUnit" data-ng-repeat="experience in experiences">
+                        <p>Experience {{$index+1}}</p>
+                        <!-- experience start and end date -->
+                        <label for="startDate{{$index+1}}">Start Date:</label>
+                        <input type="date" class="form-control" name="startDate{{$index+1}}" id="startDate{{$index+1}}" value= {{experience.startDate}}>
+                        <br>
+                        <label for="endDate{{$index+1}}">End Date: </label>
+                        <input type="date" class="form-control" name="endDate{{$index+1}}" id="endDate{{$index+1}}" value= {{experience.endDate}}>
+                        <br>
+                        <!-- organization name -->
+                        <label for="organizationName{{$index+1}}">Organization Name</label>
+                        <br>
+                        <input name="organizationName{{$index+1}}" type="text" class="form-control" id="organizationName{{$index+1}}" placeholder="Organization Name" value= {{experience.orgName}}>
+                        <br>
+                        <!-- experience location -->
+                        <label for="experienceLocation{{$index+1}}">Location</label>
+                        <br>
+                        <input name="experienceLocation{{$index+1}}" type="text" class="form-control" id="experienceLocation{{$index+1}}" placeholder="Experience Location" value= {{experience.location}}>
+                        <br>
+                        <!-- experience title -->
+                        <label for="experienceTitle{{$index+1}}">Title</label>
+                        <br>
+                        <input name="experienceTitle{{$index+1}}" type="text" class="form-control" id="experienceTitle{{$index+1}}" placeholder="Experience Title" value= {{experience.title}}>
+                        <br>
+                        <!-- experience type -->
+                        <label>Experience Type</label>
+                        <br>
+                        <select name="experienceType{{$index+1}}" ng-model= "experience.type">
+                            <option value="Intern"> Intern</option>
+                            <option value="fullTime"> Full Time</option>
+                            <option value="Co-op"> Co-op</option>
+                            <option value="NGO"> NGO</option>
+                            <option value="studentOrganization"> Student Organization</option>
+                        </select>
+                        <br>
+                        <br>
+                        <!-- experience description -->
+                        <label for="experienceDescription{{$index+1}}">Please describe your role in your experience.</label><br>
+                        <textarea name="experienceDescription{{$index+1}}" class="form-control" rows="10" cols="50" id="experienceDescription{{$index+1}}" ng-model="experience.des"></textarea>
+                        <br>
+                        <button type="button" class="btn-transparent btn-small" ng-show="$last" ng-click="removeExperience()">Remove</button>
+                    </fieldset>
+                    <button type="button" class="btn-transparent btn-small" ng-click="addExperience()">Add Experience</button>
+                    <button type="submit" class="btn-light btn-small">Submit</button>
+                    <span>{{errorExperience}}</span>
+                </div>
+            </form>
+
+            <br>
+            <h3>Skills</h3>
+            <!-- skill list -->
+            <form id="appSkill" ng-controller="skillCtl">
+                <fieldset class="proUnit" data-ng-repeat="skill in skills">
+                    <p>Skill {{$index+1}}</p>
+                    <!-- sklls name-->
+                    <label for="skillName{{$index+1}}">Skill Name</label>
+                    <br>
+                    <input name="skillName{{$index+1}}" type="text" class="form-control" id="skillName{{$index+1}}" placeholder="Skill Name" value={{skill.skillName}}>
+                    <br>
+
+                    <!-- skills proficiency -->
+                    <label>Skills Proficiency</label>
+                    <br>
+                    <select name="skillsProficiency{{$index+1}}" ng-model= "skill.proficiency">
+                        <option value="basic"> Basic</option>
+                        <option value="intermediate"> Intermediate</option>
+                        <option value="proficient"> Proficient</option>
+                    </select>
+                    <br>
+                    <br>
+                    <button type="button" class="btn-transparent btn-small" ng-show="$last" ng-click="removeSkill()">Remove</button>
+                </fieldset>
+                <button type="button" class="btn-transparent btn-small" ng-click="addSkill()">Add Skill</button>
+                <button type="submit" class="btn-light btn-small">Submit</button><br>
+                <span>{{error}}</span>
+            </form>
+        </div>
+    </div>
+</div>

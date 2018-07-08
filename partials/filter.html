@@ -1,0 +1,72 @@
+<div class="partial-pages filter">
+    <div class="container">
+        <div class="col-lg-10 col-lg-offset-1">
+            <h2>Search For Your Job</h2>
+            <form>
+                <select name="JobType" ng-model="job.JobType">
+                  <option value="all">All Types</option>
+                  <option value="fullTime">Full-time</option>
+                  <option value="intern">Intern</option>
+                  <option value="co-op">Co-op</option>
+                </select>
+          
+                <select name="Industry" ng-model="job.Industry">
+                  <option value="all">All Industries</option>
+                  <option value="Computer - Design, Development, and Programming">Computer - Design, Development, and Programming</option>
+                  <option value="Computer - Systems Analysis">Computer - Systems Analysis</option>
+                  <option value="Computer - Database and Network Administration">Computer - Database and Network Administration</option>
+                  <option value="Computer - Other">Computer - Other</option>
+                  <option value="Biotechnology and Bioengineering">Biotechnology and Bioengineering</option>
+                  <option value="Information Technology and Informatics">Information Technology and Informatics</option>
+                  <option value="Banking - Investment">Banking - Investment</option>
+                  <option value="Banking - Commercial">Banking - Commercial</option>
+                  <option value="Financial Services">Financial Services</option>
+                  <option value="Consulting - Business and Management">Consulting - Business and Management</option>
+                  <option value="Insurance">Insurance</option>
+                  <option value="Advertising and Public Relations">Advertising and Public Relations</option>
+                  <option value="Communications and Media">Communications and Media</option>
+                  <option value="Agriculture and Agribusiness">Agriculture and Agribusiness</option>
+                  <option value="Other">Other</option>
+                   
+                  
+                </select>
+                <select name="Location" ng-model="job.Location">
+                  <option value="all">All Locations</option>
+                  <option value="Chicago, IL">Chicago, IL</option>
+                  <option value="Champaign, IL">Champaign, IL</option>
+                  <option value="Okbrook, IL">Okbrook, IL</option>
+                  <option value="Rockford, IL">Rockford, IL</option>
+                  <option value="New York, NY">New York, NY</option>
+                  <option value="Glenmont, NY">Glenmont, NY</option>
+                  <option value="Los Angeles, CA">Los Angeles, CA</option>
+                  <option value="San Francisco, CA">San Francisco, CA</option>
+                  <option value="San Diego, CA">San Diego, CA</option>
+                  <option value="Pleasanton, CA">Pleasanton, CA</option>
+                  <option value="Irvine, CA">Irvine, CA</option>
+                  <option value="West Chester, PA">West Chester, PA</option>
+                  <option value="Kennett Square, PA">Kennett Square, PA</option>
+                  <option value="Seattle, WA">Seattle, WA</option>
+                  <option value="Grovetown, GA">Grovetown, GA</option>
+                  <option value="Broomfield, CO">Broomfield, CO</option>
+                  <option value="Kansas City, MO">Kansas City, MO</option>
+                  <option value="Baltimore, MD">Baltimore, MD</option>
+                  <option value="Evansville, IN">Evansville, IN</option>
+                  <option value="Morristown, NJ">Morristown, NJ</option>
+                  
+                    
+                </select>
+                <select name="Time" ng-model="job.Time">
+                  <option value="all">All Time</option>
+                  <option value="su17">2017 Summer</option>
+                  <option value="fa17">2017 Fall</option>
+                  <option value="sp18">2018 Spring</option>
+                  <option value="su18">2018 Summer</option>
+                </select>
+                <button class="btn-light btn-small" ng-click="submitForm()"> Go! </button>
+            </form>
+            <div class="table-responsive">
+                <table class="table jobResults" compile="form"></table>
+            </div>
+        </div>
+    </div>
+</div>

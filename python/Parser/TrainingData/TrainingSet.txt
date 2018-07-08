@@ -1,0 +1,309 @@
+January 2014
+February 2015
+March 2016
+April 2017
+May 2013
+June 2012
+July 2011
+August 2010
+September 2012
+October 2012
+November 2017
+December 2013
+Jan 2014
+Feb 2015
+Mar 2017
+Apr 2016
+May 2015
+Jun 2014
+Jul 2013
+Aug 2012
+Sep 2011
+Oct 2010
+Nov 2009
+Dec 2016
+Master of Science in Analytics
+Master of Science Mathematics
+Master of Science Material Science and Engineering
+Master of Science Civil and Environmental Engineering
+Master of Science Aerospace Engineering
+Master of Science Agricultural and Biological Engineering
+Master of Engineering Chemical Engineering
+Master of Engineering Mechanical Engineering
+Master of Engineering Eletrical Engineering
+Master of Engineering Computer Engineering
+Bachelor of Science in Mathematics
+Bachelor of Arts in Mathematics
+Bachelor of Arts in Computer Science and Statistics
+Bachelor of Arts in Statistics
+Bachelor of Arts in Economics and International Studies
+Bachelor of Arts in Psychology and Legal Studies
+Bachelor of Science in Computer Science
+Bachelor of Science Computer Science
+Bachelor of Science in Eletrical Engineering
+Bachelor of Science in Computer Engineering
+Bachelor of Science in Mechanical Engineering
+Bachelor of Science in Material Science and Engineering
+Bachelor of Science in Liberal Arts and Sciences, Statistics
+Bachelor of Science in Liberal Arts and Sciences, Mathematics
+Bachelor of Science Computer Science
+Bachelor of Science Material Science and Engineering
+Bachelor of Science Mechanical Engineering
+Bachelor of Science Industrial Engineering
+Bachelor of Science Civil and Environmental Engineering
+Bachelor of Science Aerospace Engineering
+Bachelor of Science Agricultural and Biological Engineering
+Bachelor of Science Chemical Engineering
+Bachelor of Science System Engineering and Design
+BS Computer Science
+BS Computer Engineering
+BS ElectronEletricalics Engineering
+BS Nuclear Engineering
+BS Physics
+BS Physics
+BS Chemistry
+MS Analytics
+BA in Communication, Minor in Marketing
+BA Public Relations
+MS Engineering Physics
+MS Civil and Environmental Engineering
+MS Computer Science
+MS Computer Science
+MS Computer Engineering
+MS ElectronEletricalics Engineering
+MS Computer Science
+MS Computer Enigineering
+ME Computer Engineering
+ME ElectronEletricalics Engineering
+ME Computer Science
+ME Computer Enigineering
+University of San Francisco
+University of California, Santa Cruz
+Bucknell University
+University of Illinois at UrbanaChampaign
+University of Illinois at Urbana Champaign
+University of Chicago
+Chicago University
+Northwestern University
+Carnegie Mellon University
+Stanford University
+Williams College
+Princeton University
+Harvard University
+Massachusetts Institute of Technology
+Yale University
+Brown University
+Pomona College
+Wesleyan University
+Swarthmore College
+University of Pennsylvania
+Amherst College
+University of Notre Dame
+United States Military Academy
+United States Naval Academy
+Cornell University
+Rice University
+California Institute of Technology
+University of California, Berkeley
+University of Michigan
+Michigan State University
+University of California, Los Angeles
+University of North Carolina, Chapel Hill
+Washington University in St. Louis
+University of Wisconsin, Madison
+New York University
+Georgia Institute of Technology
+University of Miami
+Pennsylvania State University
+Smith College
+Illinois Institute of Technology
+Minors Computer Sciences Mathematics
+Minors Physiscs
+Minors Statistics
+Minors Mathematics
+Minors Business
+Minors Physiscs
+Minors Chemistry
+Minors Biology
+Minors Computer Science
+Minors Computer Sciences Physiscs
+Minor International Relations
+Minor Statistics
+Minor Computer Sciences
+Minor International Relations
+Minor International Relations
+Minor Statistics
+Minor Computer Science
+Minor International Relations
+Minor Physics
+Minor Chemistry
+Minor in Business Institutions Program
+Minor in Business Institutions
+GPA 3140
+GPA 3240
+GPA 3340
+GPA 3440
+GPA 3560
+GPA 3640
+GPA 3750
+GPA 3840
+GPA 3940
+Cumulative GPA 3140
+Cumulative GPA 4040
+Pascal
+Naive Bayes
+R
+Python
+SPSS
+Mathematica
+Matlab
+Javascript
+C++
+SQL
+Unix
+Adobe Creative Suite
+Microsoft Office Suite
+Microsoft Word
+Microsoft Excel
+Microsoft Powerpoint
+Mysql
+Java
+SQL
+PostgreSQL
+LaTeX
+JMP
+XML
+JSON
+REST
+English
+French
+Spanish
+German
+Chinese
+mandarin
+cantonese
+Teacher’s Assistant
+Teaching Assistant
+Captain
+President
+Consultant
+Marketing Intern
+Social Media Intern
+Member
+Researcher
+Lab Asistant
+Analyst
+Intern
+Associate
+Project Manager
+Quantitative Analyst
+Lecturer
+Event Director
+Director
+Project Lead
+Secretary
+Engineer
+Research Assistant
+Research Intern
+Project Director
+Teller
+Sales and Service Specialist
+Data Scientist
+Front End Supervisor
+Back End Supervisor
+Non-Profit Consultant
+Product Management Intern
+Director, Advisor
+Marketing Manager, Advisor
+Director of the UES Peer Advising Program
+Project Participant
+Host
+Counselor
+Sales Associate
+Treasurer Community Service Chair
+Chapter Representative
+Committee Chair
+Student Ambassador
+Writing Coach
+Program Volunteer
+Financial Analyst Intern
+Special Assistant
+Financial Accounting Intern
+Lifeguard and Swim Instructor
+Managed team of 10 to engage 300 engineering students by organizing over 20 social and promotion events annually
+Held weekly lectures, tech-talks and company tours for purpose of facilitating students’ academic success
+Developed comprehensive 2-year market entry strategy for emerging lithium-ion battery business unit with team of 5
+student consultants
+Researched and created inclusive portfolios for 5 major competitors on their product mix, competitive advantage,
+operation strategy and financial condition
+Conducted research and analysis on market sizing, competition landscape, industry regulation, entry barrier and
+Original Equipment Manufacturer (potential customer) in electrical vehicle industry
+Led and managed team of 6 student consultants to optimize internal control and operation strategy for local fast food restaurant
+Developed Gantt Chart using waterfall methodology, delegated weekly workstream and ensured project quality by providing guidance and direction to team
+Coordinated weekly client meeting to update and modify workflow
+Constructed delivery and sales forecasting models on different operation strategies
+Research and analyze target market for a Chicago-based social media cell phone application startup
+Build pitch deck for client for partnerships with target companies
+1 of 16 selected from pool of 243 highly qualified applicants
+Receive trainings on research and analysis, presentation and communication, and advanced slide design skills
+Optimize parameters of forecasting model and determine performance of strategy by back testing on in-sample and out-of-sample market data
+Build automated trading strategy and long and short position of stock index futures on Python according to price forecasting model above
+Implement dynamic time warping algorithm to predict stock index futures price by matching recent futures price and volume with similar historical data trend on Python
+Worked closely with senior trader in supporting quantitative and qualitative research endeavors for Abacus and EVE, a futures Commodity Trading Advisors (CTA) program
+Tested in-house trading simulator and trading platform for launch in domestic and international markets
+Revamped CPO PowerPoint presentation using Adobe InDesign to attract a wider clientele base
+Established and managed relationships with over 500 hedge funds and CTA that were necessary to complete the first phase of due diligence for Abacus Global Fund, a Commodity Pool Operator
+Developed quantitative performance metrics designed to address issues including a 40% difference between staff and public perception of Y.O.U.’s purpose and services
+Created and executed consistent internal language to better facilitate external communication harnessing existing marketing channels that concluded in consistent external awareness of Y.O.U.
+Conducted comparative analysis of best practices among other non-profits that resulted in the implementation of these practices into recommendations expected to greatly increase Y.O.U.’s donor base
+Collaborated in a team project for the creation of a new website design template that increased customer usage and addressed pre-existing problems of complexity and incomprehensibility
+Analyzed, synthesized and delivered customer tracking data that allowed for a 15% increase in clientele base
+Consistently approved and declined advertisement content that upheld the integrity of Morningstar Inc.
+Design customized marketing packages for Goldman Sachs, Target, U.S. Cellular, Citadel Solutions and others to reach recruiting goals that include an increase of resume submissions for Accenture Strategy by 100% and an increased attendance rate by over 150% at a Goldman Sachs information session
+Establish and lead a new 15 member Corporate Relations team supported by a sustainable internal structure
+Increase ISBE budget by over 200% with sponsorship acquired through various sponsors
+Acquire Walgreens sponsorship that contributes16% of NBR’s 2007 Spring Quarter issue
+Lead projects to form sustainable partnerships with intercollegiate business groups from top schools including
+Identify, conduct and manage several distribution channels that surpass a goal of the dissemination of over 5,000 magazines on campus in a single day
+Implemented mentorship program which pairs upperclassmen economics students with freshmen having similar interests and experiences to provide guidance for courses and careers
+Expanded UES program events by 50% which heightened UES campus awareness and presence
+Assessed the organizational needs of a Fortune 500 company through a case study.
+Developed a survey tool designed to identify challenges in management effectiveness.
+Contributed to a report that provided a set of comprehensive recommendations for improved management/employee communication.
+Supervised eight lifeguards to ensure the safety and instruction of approximately 200 children.
+Designed and implemented swimming program for children with developmental disabilities.
+Coordinated staff training program to ensure high level of swim instruction for students.
+Maintained seating arrangement of restaurant to ensure maximum satisfaction of customers and staff.
+Answered customer questions, managed customer complaints, and consulted with management.
+Assisted with major events, including responsibilities such as advertising and soliciting volunteers.
+Coordinated and led practice for 24 swim team members.
+Set goals to improve stroke skill and improve speed times.
+Organized team breakfasts and events throughout season to promote team spirit.
+Developed new university campus recruiting program and presented marketing plan to client
+Organized and attended premieres and promotional events for sponsored products
+Worked closely with creative teams to develop innovative approaches to enhance client social media
+Invited press and arranged interviews for Home Improvement Sign-Off party
+Manage check in table and greeted guests for various functions
+Pitch to various media outlets for promotion of stories and events
+Develop reports analyzing media exposure using circulation, readership and advertising value
+Participate and contribute to team brainstorming and planning sessions for future and current clients
+New York, NY
+Washington, DC
+Philadelphia, PA
+Chicago IL
+Milwaukee, Wisconsin
+Evanston, Illinois
+Canton, Massachusetts
+China
+Los Angeles CA
+San Francisco CA
+Seattle WA
+Baltimore MD
+Boston MA
+San Antonio TX
+salt lake city UT
+Houston Texas
+Philadelphia PA
+Phoenix Az
+Columbus OH
+Miami Jacksonville FL
