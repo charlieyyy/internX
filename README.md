@@ -1,7 +1,7 @@
 # internX
 > Wenzheng Hu <whu14@illinois.edu>    Zeyu Wu <zeyuwu2@illinois.edu> 
 
-> Mingli Yang <myang46@illinois.edu>  Xilun Jin<xjin12@illinois.edu>
+> Mingli Yang <myang46@illinois.edu>  Xilun Jin <xjin12@illinois.edu>
 
 
 ## Table of contents
