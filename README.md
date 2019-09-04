@@ -36,8 +36,7 @@ SELECT EXISTS(SELECT 1 FROM `Experience` WHERE `uid`='$uid' and `uidExpNum`='$x'
 
 
 ## Features
-* Basic Functions: 
-
+**Basic Functions**: 
 1.	Position Lists:
 
 We manually input position from big companies and lists the real-time open positions (outdated positions will be deleted from the database).
@@ -50,8 +49,7 @@ User will be recommended to register first so that the webpage’s advanced func
 
 User can bookmark/unbookmark his interested/favorite positions. He can check these positions as a list in his home page. He can rearrange the order of the bookmarked positions in his personal position list.
 
-* Advanced Functions:
-
+**Advanced Functions**:
 1.	Resume Parsing:
 
 The webpage will parse the uploaded resume and autofill the registration form for the user so that the user doesn’t have to type in the registration form (usually long) by himself.
